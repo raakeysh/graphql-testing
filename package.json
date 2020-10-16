@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node src/index.js"
+    "test_test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Rakesh Shivaji Raut",
@@ -17,5 +18,9 @@
     "graphql-playground-middleware-express": "^1.7.21",
     "mongodb": "^3.6.2",
     "mongodb-memory-server": "^6.9.2"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "supertest": "^5.0.0"
   }
 }
