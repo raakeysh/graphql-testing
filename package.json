@@ -8,7 +8,7 @@
     "start" : "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rakesh Raut",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
